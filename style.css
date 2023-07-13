@@ -32,23 +32,11 @@
   border: none;
   border-radius: 2px;
   padding: 10px 15px;
+  margin-right: 15px;
 }
 .primary-button:hover {
   background-color: #fff;
   color: #000;
-  transition: 01s;
-}
-.btn{
-  background-color: #fff;
-  color: #000;
-  font-size: 18px;
-  border: none;
-  border-radius: 2px;
-  padding: 10px 15px;
-}
-.btn:hover {
-  background-color: #f94c30;
-  color: #fff;
   transition: 01s;
 }
 .banner-container{
@@ -59,4 +47,13 @@
   display: flex;
   align-items: center;
   text-align: center;
+}
+.banner-title{
+  font-size: 50px;
+}
+.banner-description{
+  font-size: 24px;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
 }
