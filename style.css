@@ -38,3 +38,25 @@
   color: #000;
   transition: 01s;
 }
+.btn{
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 15px;
+}
+.btn:hover {
+  background-color: #f94c30;
+  color: #fff;
+  transition: 01s;
+}
+.banner-container{
+  height: 100vh;
+  background-image: url('./asset/image/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
