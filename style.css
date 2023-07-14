@@ -131,16 +131,30 @@
 /* @media screen and (min-width:576px) and (max-width:960px) {
   
 } */
-/* responsive section  */
+/* responsive layout section for mobile */
 @media screen and (max-width:576px) {
   .container{
     padding: 10px;
   }
   .logo, .main-menu a{
     font-size: 18px;
+    margin-right: 10px;
   }
   .button{
     display: none;
   }
   
+}
+/* responsive layout section for tablet */
+@media screen and (min-width:576px) and (max-width:960px) {
+  .container{
+    padding: 10px;
+  }
+  .logo, .main-menu a{
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .primary-button{
+    padding: 5px 15px;
+  }
 }
