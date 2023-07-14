@@ -124,15 +124,12 @@
   padding: 10px;
 }
 
-.hide{
-  display: none;
-}
-
 /* @media screen and (min-width:576px) and (max-width:960px) {
   
 } */
 /* responsive layout section for mobile */
 @media screen and (max-width:576px) {
+  /* nav bar section  */
   .container{
     padding: 10px;
   }
@@ -143,10 +140,27 @@
   .button{
     display: none;
   }
+  /* banner section  */
+  .banner-container{
+    padding: 10px;
+  }
+  .banner-title{
+    font-size: 30px;
+  }
+  .banner-description{
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .primary-button{
+    font-size: 14px;
+    padding: 10px 10px;
+  }
   
 }
 /* responsive layout section for tablet */
 @media screen and (min-width:576px) and (max-width:960px) {
+  /* nav bar section */
   .container{
     padding: 10px;
   }
@@ -154,7 +168,11 @@
     font-size: 20px;
     margin-right: 10px;
   }
-  .primary-button{
-    padding: 5px 15px;
+  /* banner section */
+  .banner-title{
+    font-size: 35px;
+  }
+  .banner-description{
+    margin-bottom: 20px;
   }
 }
