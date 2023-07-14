@@ -14,7 +14,7 @@
   color: #fff;
   font-size: 30px;
 }
-.main-menu {
+.main-menu li {
   list-style: none;
 }
 .main-menu li a {
@@ -122,4 +122,25 @@
   gap: 10px;
   border-right: 2px solid gray;
   padding: 10px;
+}
+
+.hide{
+  display: none;
+}
+
+/* @media screen and (min-width:576px) and (max-width:960px) {
+  
+} */
+/* responsive section  */
+@media screen and (max-width:576px) {
+  .container{
+    padding: 10px;
+  }
+  .logo, .main-menu a{
+    font-size: 18px;
+  }
+  .button{
+    display: none;
+  }
+  
 }
